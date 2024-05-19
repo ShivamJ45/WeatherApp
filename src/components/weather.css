@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(74,144,226);
+}
+
+.mainDiv{
+    height: 80vh;
+    width: 30vw;
+    background-color: rgb(255, 255, 255,0.75);
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 15px;
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 25px;
+}
+
+.city input{
+    font-size: 15px;
+    font-weight: 500;
+    height: 45px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+    box-shadow: 7px 4px 15px 0px rgba(0,0,0,0.34);
+}
+
+.city button{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    border: none;
+    box-shadow: 7px 4px 15px 0px rgba(0,0,0,0.34);
+}
